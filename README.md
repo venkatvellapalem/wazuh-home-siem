@@ -5,7 +5,7 @@ This project demonstrates a Security Information and Event Management (SIEM) set
 
 ---
 
-## Architecture
+### Architecture
 - Wazuh Manager deployed using Docker (Linux host)
 - 2 Windows endpoints configured as agents
 - All systems connected within the same subnet
@@ -13,7 +13,7 @@ This project demonstrates a Security Information and Event Management (SIEM) set
 
 ---
 
-## Key Features
+### Key Features
 - File Integrity Monitoring (FIM) to detect unauthorized changes  
 - Custom rule creation for activity tracking  
 - Endpoint behavior monitoring (including browsing activity logs)  
@@ -109,3 +109,21 @@ Download and install Wazuh agent on Windows systems.
   "severity": "high"
 }
 ```
+## 📸 Screenshots
+
+<p align="center">
+  <img src="dashboard.jpg" width="800"/>
+</p>
+
+<p align="center">
+  <img src="agents.jpg" width="800"/>
+</p>
+
+## 🔗 Project Origin
+
+<p>
+  This project was originally shared on LinkedIn:<br>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7387052171105693696/" target="_blank">
+    View the full post
+  </a>
+</p>
